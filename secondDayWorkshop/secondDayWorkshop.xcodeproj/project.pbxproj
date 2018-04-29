@@ -14,6 +14,8 @@
 		40388C1D2095D2F00044647F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40388C1B2095D2F00044647F /* LaunchScreen.storyboard */; };
 		40388C252095D36F0044647F /* HomeVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40388C242095D36F0044647F /* HomeVCViewController.swift */; };
 		40388C272095D3940044647F /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40388C262095D3940044647F /* DetailsVC.swift */; };
+		40822F182095EDED00DFAC23 /* ContactVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40822F172095EDED00DFAC23 /* ContactVC.swift */; };
+		40822F1A2095F0B100DFAC23 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40822F192095F0B100DFAC23 /* ContactTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		40388C1E2095D2F00044647F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40388C242095D36F0044647F /* HomeVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVCViewController.swift; sourceTree = "<group>"; };
 		40388C262095D3940044647F /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		40822F172095EDED00DFAC23 /* ContactVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactVC.swift; sourceTree = "<group>"; };
+		40822F192095F0B100DFAC23 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				40388C1E2095D2F00044647F /* Info.plist */,
 				40388C242095D36F0044647F /* HomeVCViewController.swift */,
 				40388C262095D3940044647F /* DetailsVC.swift */,
+				40822F172095EDED00DFAC23 /* ContactVC.swift */,
+				40822F192095F0B100DFAC23 /* ContactTableViewCell.swift */,
 			);
 			path = secondDayWorkshop;
 			sourceTree = "<group>";
@@ -142,10 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40822F1A2095F0B100DFAC23 /* ContactTableViewCell.swift in Sources */,
 				40388C152095D2F00044647F /* ViewController.swift in Sources */,
 				40388C272095D3940044647F /* DetailsVC.swift in Sources */,
 				40388C252095D36F0044647F /* HomeVCViewController.swift in Sources */,
 				40388C132095D2F00044647F /* AppDelegate.swift in Sources */,
+				40822F182095EDED00DFAC23 /* ContactVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

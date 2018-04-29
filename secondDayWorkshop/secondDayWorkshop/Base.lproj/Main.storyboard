@@ -60,7 +60,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="for-GZ-lKj">
-                                <rect key="frame" x="7" y="366" width="368" height="258"/>
+                                <rect key="frame" x="7" y="366" width="359" height="124"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -78,6 +78,14 @@
                                     <action selector="changeImageAction:" destination="OCT-Gj-KW0" eventType="touchUpInside" id="u0C-xK-7MW"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g8s-3f-8KN">
+                                <rect key="frame" x="138" y="585" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Go To contact"/>
+                                <connections>
+                                    <action selector="goAction:" destination="OCT-Gj-KW0" eventType="touchUpInside" id="sRh-hE-Lar"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="SOi-X5-8cU"/>
@@ -90,6 +98,79 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xvc-dz-iJY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="724" y="142.57871064467767"/>
+        </scene>
+        <!--ContactVC-->
+        <scene sceneID="eVJ-4i-EO2">
+            <objects>
+                <viewController storyboardIdentifier="ContactVC" id="36B-D3-dP0" customClass="ContactVC" customModule="secondDayWorkshop" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NPy-yZ-FfR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="w7O-H9-Ivr">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ContactCell" rowHeight="90" id="GMG-Ob-gF6" customClass="ContactTableViewCell" customModule="secondDayWorkshop" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="90"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="GMG-Ob-gF6" id="cKo-l5-0gA">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="89.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w57-AM-Y1W">
+                                                    <rect key="frame" x="10" y="10" width="50" height="30"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="50" id="288-Om-ekM"/>
+                                                        <constraint firstAttribute="height" constant="30" id="823-BK-Xgh"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Sk-Di-417">
+                                                    <rect key="frame" x="10" y="50" width="41" height="24"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="24" id="tYI-we-dqL"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="w57-AM-Y1W" secondAttribute="trailing" constant="10" id="DN0-IN-3eK"/>
+                                                <constraint firstItem="w57-AM-Y1W" firstAttribute="leading" secondItem="cKo-l5-0gA" secondAttribute="leading" constant="10" id="EP2-RV-QGB"/>
+                                                <constraint firstItem="0Sk-Di-417" firstAttribute="top" secondItem="w57-AM-Y1W" secondAttribute="bottom" constant="10" id="HKS-x4-nwT"/>
+                                                <constraint firstAttribute="trailing" secondItem="0Sk-Di-417" secondAttribute="trailing" constant="10" id="LBU-wO-zQN"/>
+                                                <constraint firstItem="0Sk-Di-417" firstAttribute="leading" secondItem="cKo-l5-0gA" secondAttribute="leading" constant="10" id="gXs-1C-7oN"/>
+                                                <constraint firstItem="w57-AM-Y1W" firstAttribute="top" secondItem="cKo-l5-0gA" secondAttribute="top" constant="10" id="mU1-1U-7Gv"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="emaillbl" destination="0Sk-Di-417" id="akq-X7-Tn1"/>
+                                            <outlet property="namelbl" destination="w57-AM-Y1W" id="Xqq-Pr-nBY"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="w7O-H9-Ivr" firstAttribute="top" secondItem="WRx-Sm-uZS" secondAttribute="top" id="Ep6-Rz-iU3"/>
+                            <constraint firstItem="WRx-Sm-uZS" firstAttribute="bottom" secondItem="w7O-H9-Ivr" secondAttribute="bottom" id="erS-09-xRl"/>
+                            <constraint firstItem="w7O-H9-Ivr" firstAttribute="leading" secondItem="WRx-Sm-uZS" secondAttribute="leading" id="gHW-uF-47r"/>
+                            <constraint firstItem="WRx-Sm-uZS" firstAttribute="trailing" secondItem="w7O-H9-Ivr" secondAttribute="trailing" id="tWJ-7R-Ewf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="WRx-Sm-uZS"/>
+                    </view>
+                    <connections>
+                        <outlet property="tblvw" destination="w7O-H9-Ivr" id="03P-3l-cC8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4MN-2D-rBL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1535" y="143"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="jSV-gL-Gl2">

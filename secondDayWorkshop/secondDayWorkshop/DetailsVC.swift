@@ -42,6 +42,14 @@ class DetailsVC: UIViewController {
         imgView.image = UIImage(named: "lion2")
         delegate?.imageDidChange()
     }
+    
+    @IBAction func goAction(_ sender: UIButton) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let detailVC = storyboard.instantiateViewController(withIdentifier : "ContactVC") as! ContactVC
+        
+        self.navigationController?.pushViewController(detailVC, animated: true)
+        
+    }
 
     /*
     // MARK: - Navigation
