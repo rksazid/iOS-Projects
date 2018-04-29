@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8B89CD92094468400842AB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B89CD82094468400842AB3 /* AppDelegate.swift */; };
+		C8B89CDB2094468400842AB3 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B89CDA2094468400842AB3 /* HomeVC.swift */; };
+		C8B89CDE2094468400842AB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8B89CDC2094468400842AB3 /* Main.storyboard */; };
+		C8B89CE02094468400842AB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8B89CDF2094468400842AB3 /* Assets.xcassets */; };
+		C8B89CE32094468400842AB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8B89CE12094468400842AB3 /* LaunchScreen.storyboard */; };
+		C8B89CEB2094535000842AB3 /* KUET.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8B89CEA2094535000842AB3 /* KUET.storyboard */; };
+		C8C1B5ED209456E900EC7359 /* blabla.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8C1B5EC209456E900EC7359 /* blabla.xib */; };
+		C8C1B5EF2094A30C00EC7359 /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C1B5EE2094A30C00EC7359 /* TestClass.swift */; };
+		C8C1B5F12094A3F000EC7359 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C1B5F02094A3F000EC7359 /* DetailsVC.swift */; };
+		C8F7861B2095EBEA0037FF9D /* KuetProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F7861A2095EBEA0037FF9D /* KuetProtocols.swift */; };
+		C8F7861D2095EE2C0037FF9D /* ContactVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F7861C2095EE2B0037FF9D /* ContactVC.swift */; };
+		C8F7861F2095F1030037FF9D /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F7861E2095F1030037FF9D /* ContactTableViewCell.swift */; };
+		C8F786222095F80A0037FF9D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F786212095F80A0037FF9D /* User.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C8B89CD52094468300842AB3 /* KuetWorkshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KuetWorkshop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8B89CD82094468400842AB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C8B89CDA2094468400842AB3 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		C8B89CDD2094468400842AB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C8B89CDF2094468400842AB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8B89CE22094468400842AB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C8B89CE42094468400842AB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8B89CEA2094535000842AB3 /* KUET.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = KUET.storyboard; sourceTree = "<group>"; };
+		C8C1B5EC209456E900EC7359 /* blabla.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = blabla.xib; sourceTree = "<group>"; };
+		C8C1B5EE2094A30C00EC7359 /* TestClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClass.swift; sourceTree = "<group>"; };
+		C8C1B5F02094A3F000EC7359 /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		C8F7861A2095EBEA0037FF9D /* KuetProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KuetProtocols.swift; sourceTree = "<group>"; };
+		C8F7861C2095EE2B0037FF9D /* ContactVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactVC.swift; sourceTree = "<group>"; };
+		C8F7861E2095F1030037FF9D /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		C8F786212095F80A0037FF9D /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8B89CD22094468300842AB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8B89CCC2094468300842AB3 = {
+			isa = PBXGroup;
+			children = (
+				C8B89CD72094468300842AB3 /* KuetWorkshop */,
+				C8B89CD62094468300842AB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8B89CD62094468300842AB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8B89CD52094468300842AB3 /* KuetWorkshop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8B89CD72094468300842AB3 /* KuetWorkshop */ = {
+			isa = PBXGroup;
+			children = (
+				C8F786202095F80A0037FF9D /* Model */,
+				C8B89CD82094468400842AB3 /* AppDelegate.swift */,
+				C8B89CDA2094468400842AB3 /* HomeVC.swift */,
+				C8C1B5F02094A3F000EC7359 /* DetailsVC.swift */,
+				C8C1B5EE2094A30C00EC7359 /* TestClass.swift */,
+				C8F7861E2095F1030037FF9D /* ContactTableViewCell.swift */,
+				C8F7861C2095EE2B0037FF9D /* ContactVC.swift */,
+				C8B89CDC2094468400842AB3 /* Main.storyboard */,
+				C8B89CDF2094468400842AB3 /* Assets.xcassets */,
+				C8B89CE12094468400842AB3 /* LaunchScreen.storyboard */,
+				C8B89CE42094468400842AB3 /* Info.plist */,
+				C8B89CEA2094535000842AB3 /* KUET.storyboard */,
+				C8C1B5EC209456E900EC7359 /* blabla.xib */,
+				C8F7861A2095EBEA0037FF9D /* KuetProtocols.swift */,
+			);
+			path = KuetWorkshop;
+			sourceTree = "<group>";
+		};
+		C8F786202095F80A0037FF9D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C8F786212095F80A0037FF9D /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8B89CD42094468300842AB3 /* KuetWorkshop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8B89CE72094468400842AB3 /* Build configuration list for PBXNativeTarget "KuetWorkshop" */;
+			buildPhases = (
+				C8B89CD12094468300842AB3 /* Sources */,
+				C8B89CD22094468300842AB3 /* Frameworks */,
+				C8B89CD32094468300842AB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KuetWorkshop;
+			productName = KuetWorkshop;
+			productReference = C8B89CD52094468300842AB3 /* KuetWorkshop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8B89CCD2094468300842AB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "S.M.Moinuddin (Shuvo)";
+				TargetAttributes = {
+					C8B89CD42094468300842AB3 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = C8B89CD02094468300842AB3 /* Build configuration list for PBXProject "KuetWorkshop" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8B89CCC2094468300842AB3;
+			productRefGroup = C8B89CD62094468300842AB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8B89CD42094468300842AB3 /* KuetWorkshop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8B89CD32094468300842AB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8C1B5ED209456E900EC7359 /* blabla.xib in Resources */,
+				C8B89CE32094468400842AB3 /* LaunchScreen.storyboard in Resources */,
+				C8B89CE02094468400842AB3 /* Assets.xcassets in Resources */,
+				C8B89CDE2094468400842AB3 /* Main.storyboard in Resources */,
+				C8B89CEB2094535000842AB3 /* KUET.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8B89CD12094468300842AB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8B89CDB2094468400842AB3 /* HomeVC.swift in Sources */,
+				C8C1B5F12094A3F000EC7359 /* DetailsVC.swift in Sources */,
+				C8C1B5EF2094A30C00EC7359 /* TestClass.swift in Sources */,
+				C8F7861D2095EE2C0037FF9D /* ContactVC.swift in Sources */,
+				C8F786222095F80A0037FF9D /* User.swift in Sources */,
+				C8F7861F2095F1030037FF9D /* ContactTableViewCell.swift in Sources */,
+				C8F7861B2095EBEA0037FF9D /* KuetProtocols.swift in Sources */,
+				C8B89CD92094468400842AB3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C8B89CDC2094468400842AB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8B89CDD2094468400842AB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C8B89CE12094468400842AB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8B89CE22094468400842AB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8B89CE52094468400842AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C8B89CE62094468400842AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8B89CE82094468400842AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R29P4K488C;
+				INFOPLIST_FILE = KuetWorkshop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuet.KuetWorkshop1123;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C8B89CE92094468400842AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R29P4K488C;
+				INFOPLIST_FILE = KuetWorkshop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuet.KuetWorkshop1123;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8B89CD02094468300842AB3 /* Build configuration list for PBXProject "KuetWorkshop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8B89CE52094468400842AB3 /* Debug */,
+				C8B89CE62094468400842AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8B89CE72094468400842AB3 /* Build configuration list for PBXNativeTarget "KuetWorkshop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8B89CE82094468400842AB3 /* Debug */,
+				C8B89CE92094468400842AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8B89CCD2094468300842AB3 /* Project object */;
+}
