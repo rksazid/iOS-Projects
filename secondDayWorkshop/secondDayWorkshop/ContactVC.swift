@@ -22,6 +22,11 @@ class ContactVC: UIViewController,UITableViewDataSource {
     }
     
     
+    @available(iOS 2.0, *)
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat{
+        return 120
+    }
+    
     
     
     @IBOutlet weak var tblvw: UITableView!
