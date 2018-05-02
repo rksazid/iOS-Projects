@@ -1,0 +1,6 @@
+https://www.raywenderlich.com/?s=ios&cof=FORID%3A10
+https://my-json-server.typicode.com/shahriarmahmud/UserInfo/info
+http://www.thomashanning.com/uitableview-tutorial-for-beginners/
+https://github.com/Alamofire/Alamofire
+https://github.com/SwiftyJSON/SwiftyJSON
+https://github.com/SVProgressHUD/SVProgressHUD
